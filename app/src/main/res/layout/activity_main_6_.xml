@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <com.yotako.customView.YotakoConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_7_text_0_guidelines_top5982b93f_096d_4164_ba95_f689dfd0aa3d"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.20679999999999998" />
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_7_text_0_guidelines_start5982b93f_096d_4164_ba95_f689dfd0aa3d"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.1333" />
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_7_text_0_guidelines_bottom5982b93f_096d_4164_ba95_f689dfd0aa3d"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.32823" />
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_7_text_0_guidelines_end5982b93f_096d_4164_ba95_f689dfd0aa3d"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.8693" />
+            <com.yotako.customView.YotakoTextView
+android:id="@+id/iphone_6_7_8_7_text_0"
+android:fontFamily="Segoe UI"
+
+android:text="On behalf of the SCDF.
+Thank you for submitting 
+Our offices will be investigating" 
+android:textColor="#707070"
+android:textSize="18sp"
+app:autoSizeTextType="none"
+android:textStyle="normal"
+app:originalWidth="276"
+app:originalHeight="81"
+android:gravity="left"
+android:layout_width="0dp"
+android:layout_height="97.2dp"
+android:layout_weight="1"
+app:layout_constraintStart_toStartOf="@+id/iphone_6_7_8_7_text_0_guidelines_start5982b93f_096d_4164_ba95_f689dfd0aa3d"
+app:layout_constraintTop_toTopOf="@+id/iphone_6_7_8_7_text_0_guidelines_top5982b93f_096d_4164_ba95_f689dfd0aa3d"
+app:layout_constraintEnd_toEndOf="@+id/iphone_6_7_8_7_text_0_guidelines_end5982b93f_096d_4164_ba95_f689dfd0aa3d"
+app:layout_constraintBottom_toBottomOf="@+id/iphone_6_7_8_7_text_0_guidelines_bottom5982b93f_096d_4164_ba95_f689dfd0aa3d" />
+        </com.yotako.customView.YotakoConstraintLayout>
+    </LinearLayout>
